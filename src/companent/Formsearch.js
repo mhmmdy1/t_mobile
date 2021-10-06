@@ -82,7 +82,7 @@ export default class Formsearch extends Component {
               <div class="modal-body">
                 <form>
                   <div class="form-group">
-                  <div class="col-10">
+                  <div class="col-10 margin-20">
                   <label for="inputEmail3" class="col-form-label">
                   MSISDN
                   </label>
@@ -92,10 +92,10 @@ export default class Formsearch extends Component {
                     placeholder="Search"
                     aria-label="Search"
                   />
-                </div><br/>
-                <div class="col-10">
+                </div>
+                  <div class="col-10 margin-20">
                   <label for="inputEmail3" class="col-form-label">
-                  ICCID
+                  MSISDN
                   </label>
                   <input
                     class="form-control form-control-sm  "
@@ -104,9 +104,9 @@ export default class Formsearch extends Component {
                     aria-label="Search"
                   />
                 </div>
-                <div class="col-10">
+                  <div class="col-10 margin-20">
                   <label for="inputEmail3" class="col-form-label">
-                  Email
+                  MSISDN
                   </label>
                   <input
                     class="form-control form-control-sm  "
@@ -115,9 +115,9 @@ export default class Formsearch extends Component {
                     aria-label="Search"
                   />
                 </div>
-                <div class="col-10">
+                  <div class="col-10 margin-20">
                   <label for="inputEmail3" class="col-form-label">
-                  Contact Phone
+                  MSISDN
                   </label>
                   <input
                     class="form-control form-control-sm  "
@@ -126,9 +126,31 @@ export default class Formsearch extends Component {
                     aria-label="Search"
                   />
                 </div>
-                <div class="col-10">
+                  <div class="col-10 margin-20">
                   <label for="inputEmail3" class="col-form-label">
-                  Customer Name
+                  MSISDN
+                  </label>
+                  <input
+                    class="form-control form-control-sm  "
+                    type="text"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                </div>
+                  <div class="col-10 margin-20">
+                  <label for="inputEmail3" class="col-form-label">
+                  MSISDNMSISDNMSISDNMSISDN
+                  </label>
+                  <input
+                    class="form-control form-control-sm  "
+                    type="text"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                </div>
+                  <div class="col-10 margin-20">
+                  <label for="inputEmail3" class="col-form-label">
+                  MSISDN
                   </label>
                   <input
                     class="form-control form-control-sm  "
