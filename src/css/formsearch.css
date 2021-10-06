@@ -24,3 +24,7 @@ label.col-form-label {
 .col-4 {
   text-align: center;
 }
+.jsend {
+  display: flex !important;
+  justify-content: flex-end;
+}

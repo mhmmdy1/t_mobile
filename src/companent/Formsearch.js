@@ -9,7 +9,7 @@ export default class Formsearch extends Component {
           <div class="container">
             <div class="row">
 
-              <div class="col col-12 ">
+              <div class="col col-12 jsend ">
                 <div class="col-3">
                   <button
                     type="button"
