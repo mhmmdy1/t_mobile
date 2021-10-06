@@ -35,6 +35,19 @@ body {
   color: #61dafb;
 }
 
+a.dropdown-item:focus {
+  box-shadow: 0 0 0 0.25rem rgb(26 179 148) !important;
+  border-radius: 5px;
+  background-color: transparent;
+  color: black;
+  transition-duration: 0.5s;
+}
+a.dropdown-item:hover {
+  background-color: transparent;
+  color: #20c997;
+  transition-duration: 0.5s;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
