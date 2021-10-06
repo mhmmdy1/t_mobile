@@ -2,7 +2,7 @@ import React from 'react';
 import { Bar } from 'react-chartjs-2';
 
 const data = {
-    labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+    labels: ['Customers', 'Contracts', 'Billing', 'Management', 'User', 'Roles'],
     datasets: [
         {
             label: 'Statistics',
@@ -29,7 +29,8 @@ const data = {
 };
 
 const data1 = {
-    labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+    labels: ['Customers', 'Contracts', 'Billing', 'Management', 'User', 'Roles'],
+
     datasets: [
         {
             label: 'Statistics',
