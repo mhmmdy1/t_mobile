@@ -9,16 +9,17 @@ export default class Formsearch extends Component {
           <div class="container">
             <div class="row">
 
-              <div class="col col-12">
-                <button
-                  type="button"
-                  class="btn btn-primary mb-2"
-                  data-toggle="modal"
-                  data-target="#addCustomer"
-                  data-whatever="@mdo"
-                >
-                  Detailed Search
-                </button>
+              <div class="col col-12 ">
+                <div class="col-3">
+                  <button
+                    type="button"
+                    class="btn btn-primary mb-2"
+                    data-toggle="modal"
+                    data-target="#addCustomer"
+                    data-whatever="@mdo"
+                  >
+                    Add Customer
+                  </button></div>
               </div>
               <div class="col col-12">
                 <div class="col-10">
