@@ -4,6 +4,7 @@ import { IoExitOutline } from "react-icons/io5";
 import DataTable from "./DataTable";
 import Rapor1 from "./Rapor1";
 import Formsearch from "./Formsearch";
+import Chartjs from "./Chartjs";
 import { BrowserRouter as Router, Switch, Link, Route } from "react-router-dom";
 
 const Table1 = (props) => {
@@ -93,7 +94,9 @@ const Table1 = (props) => {
               </div>
             </Route>
             <Route path="/">
-              <Rapor1 />
+              <div class="container margin40">
+                <Chartjs></Chartjs>
+                <Rapor1 /></div>
             </Route>
             <Route path="/contracts">
             </Route>
