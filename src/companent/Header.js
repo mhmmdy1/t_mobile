@@ -3,7 +3,7 @@ import { FaUserAlt } from "react-icons/fa";
 import { IoExitOutline } from "react-icons/io5";
 import DataTable from "./DataTable";
 import Rapor1 from "./Rapor1";
-import Formsearch  from "./Formsearch";
+import Formsearch from "./Formsearch";
 import { BrowserRouter as Router, Switch, Link, Route } from "react-router-dom";
 
 const Table1 = (props) => {
@@ -28,7 +28,7 @@ const Table1 = (props) => {
               {" "}
               <div className="dropdown">
                 <Link className="dropdown-item" to="/home">
-                Home Page
+                  Home Page
                 </Link>
               </div>
               <div className="dropdown">
@@ -48,15 +48,15 @@ const Table1 = (props) => {
               </div>
               <div className="dropdown">
                 <Link className="dropdown-item" to="/users">
-                User Management            
-                    </Link>
+                  User Management
+                </Link>
               </div>
               <div className="dropdown">
                 <Link className="dropdown-item" to="/roles">
-                Roles
+                  Roles
                 </Link>
               </div>
-              
+
             </ul>
             <form className="form-inline my-2 my-lg-0">
               <button
@@ -82,19 +82,20 @@ const Table1 = (props) => {
 
         <div>
           <Switch>
-          <Route path="/home">
-              <Rapor1/>
+            <Route path="/home">
+              <Rapor1 />
             </Route>
             <Route path="/customers">
-            <div class="container margin40">
-                <Formsearch/>
-                <DataTable/>
+              <div class="container margin40">
+                <Formsearch />
+                <hr></hr><br />
+                <DataTable />
               </div>
             </Route>
             <Route path="/">
               <Rapor1 />
             </Route>
-            <Route path="/contracts">        
+            <Route path="/contracts">
             </Route>
           </Switch>
         </div>
