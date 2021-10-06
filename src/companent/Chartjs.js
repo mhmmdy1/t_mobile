@@ -1,5 +1,5 @@
 import React from 'react';
-import { Bar } from 'react-chartjs-2';
+import { Bar, Line } from 'react-chartjs-2';
 
 const data = {
     labels: ['Customers', 'Contracts', 'Billing', 'Management', 'User', 'Roles'],
@@ -80,7 +80,7 @@ const Chartjs = () => (
             <div className='col-6'>
                 <Bar data={data} options={options} /></div>
             <div className='col-6'>
-                <Bar data={data1} options={options} /></div></div>
+                <Line data={data1} options={options} /></div></div>
     </>
 );
 
