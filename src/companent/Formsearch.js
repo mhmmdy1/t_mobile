@@ -11,13 +11,13 @@ export default class Formsearch extends Component {
               <div class="col col-12">
                 <div class="col-10">
                   <label for="inputEmail3" class="col-form-label">
-                    Email
+                
                   </label>
                   <input
                     class="form-control form-control-sm  "
                     type="text"
-                    placeholder="Search"
-                    aria-label="Search"
+                    placeholder="Find By Customer ID"
+                    aria-label="Find By Customer ID"
                   />
                 </div>
 
@@ -36,13 +36,13 @@ export default class Formsearch extends Component {
               <div class="col col-12">
                 <div class="col-10">
                   <label for="inputEmail3" class="col-form-label">
-                    Email
+                 
                   </label>
                   <input
                     class="form-control form-control-sm  "
                     type="text"
-                    placeholder="Search"
-                    aria-label="Search"
+                    placeholder="Find By Contract ID"
+                    aria-label="Find By Contract ID"
                   />
                 </div>
 
@@ -68,7 +68,7 @@ export default class Formsearch extends Component {
             <div class="modal-content">
               <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">
-                  New message
+                  Search
                 </h5>
                 <button
                   type="button"
@@ -84,7 +84,51 @@ export default class Formsearch extends Component {
                   <div class="form-group">
                   <div class="col-10">
                   <label for="inputEmail3" class="col-form-label">
-                    Email
+                  MSISDN
+                  </label>
+                  <input
+                    class="form-control form-control-sm  "
+                    type="text"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                </div><br/>
+                <div class="col-10">
+                  <label for="inputEmail3" class="col-form-label">
+                  ICCID
+                  </label>
+                  <input
+                    class="form-control form-control-sm  "
+                    type="text"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                </div>
+                <div class="col-10">
+                  <label for="inputEmail3" class="col-form-label">
+                  Email
+                  </label>
+                  <input
+                    class="form-control form-control-sm  "
+                    type="text"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                </div>
+                <div class="col-10">
+                  <label for="inputEmail3" class="col-form-label">
+                  Contact Phone
+                  </label>
+                  <input
+                    class="form-control form-control-sm  "
+                    type="text"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                </div>
+                <div class="col-10">
+                  <label for="inputEmail3" class="col-form-label">
+                  Customer Name
                   </label>
                   <input
                     class="form-control form-control-sm  "
@@ -94,12 +138,7 @@ export default class Formsearch extends Component {
                   />
                 </div>
                   </div>
-                  <div class="form-group">
-                    <label for="message-text" class="col-form-label">
-                      Message:
-                    </label>
-                    <textarea class="form-control" id="message-text"></textarea>
-                  </div>
+                  
                 </form>
               </div>
               <div class="modal-footer">

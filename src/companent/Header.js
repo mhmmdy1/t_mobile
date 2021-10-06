@@ -27,28 +27,33 @@ const Table1 = (props) => {
             <ul className="navbar-nav mr-auto">
               {" "}
               <div className="dropdown">
-                <Link className="dropdown-item" to="/anasayfa">
-                  Anasayfa
+                <Link className="dropdown-item" to="/home">
+                Home Page
                 </Link>
               </div>
               <div className="dropdown">
-                <Link className="dropdown-item" to="/tesistanımı">
-                  Anasayfa
+                <Link className="dropdown-item" to="/customers">
+                  Customers
                 </Link>
               </div>
               <div className="dropdown">
-                <Link className="dropdown-item" to="/anasayfa">
-                  Anasayfa
+                <Link className="dropdown-item" to="/contracts">
+                  Contracts
                 </Link>
               </div>
               <div className="dropdown">
-                <Link className="dropdown-item" to="/anasayfa">
-                  Anasayfa
+                <Link className="dropdown-item" to="/billing">
+                  Billing
                 </Link>
               </div>
               <div className="dropdown">
-                <Link className="dropdown-item" to="/anasayfa">
-                  Anasayfa
+                <Link className="dropdown-item" to="/users">
+                User Management            
+                    </Link>
+              </div>
+              <div className="dropdown">
+                <Link className="dropdown-item" to="/roles">
+                Roles
                 </Link>
               </div>
               
@@ -77,17 +82,19 @@ const Table1 = (props) => {
 
         <div>
           <Switch>
-            <Route path="/anasayfa">
-              <Rapor1 />
+          <Route path="/home">
+              <Rapor1/>
+            </Route>
+            <Route path="/customers">
+            <div class="container margin40">
+                <Formsearch/>
+                <DataTable/>
+              </div>
             </Route>
             <Route path="/">
               <Rapor1 />
             </Route>
-            <Route path="/tesistanımı">
-              <div class="container margin40">
-                <Formsearch/>
-                <DataTable/>
-              </div>
+            <Route path="/contracts">        
             </Route>
           </Switch>
         </div>

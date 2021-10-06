@@ -13,7 +13,7 @@ export default class Table2 extends Component {
     
                     <div class="row">
                         <div class="col">
-                            <p>İstatistikler</p>
+                            <p>Report</p>
                         </div>
                         <hr></hr>
                     </div>
